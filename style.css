@@ -1,0 +1,137 @@
+* {
+  font-family: "Work Sans";
+  margin: 0;
+}
+header {
+  background-image: url("../Assignment/images/banner/banner2.png");
+  width: 2400px;
+  height: 650px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+/* banner style */
+.banner {
+  text-align: right;
+  margin-left: 800px;
+  margin-top: 150px;
+  width: 494px;
+  height: 78px;
+  left: 876px;
+  top: 468px;
+  font-weight: 400;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+}
+.btn-primary {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+}
+/* section-A */
+.section-A {
+  display: flex;
+  justify-content: center;
+  width: 1072px;
+  height: 723.3px;
+  left: 206px;
+  top: 939px;
+}
+
+.image-A {
+  max-width: 25%;
+  max-height: 15%;
+  float: left;
+  margin-left: 400px;
+}
+.text-A {
+  font-size: 20px;
+  padding-left: 450px;
+  padding-top: 20%;
+  float: left;
+}
+.head-A {
+  width: 288px;
+  height: 94px;
+  left: 862px;
+  top: 1174px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.para-A {
+  width: 416px;
+  height: 104px;
+  left: 862px;
+  top: 1296px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.list-A {
+  width: 358px;
+  height: 162px;
+  left: 853px;
+  top: 1416px;
+}
+.ul-A {
+}
+/*section-B*/
+.section-B {
+}
+.section-title {
+  text-align: center;
+  font-size: 40px;
+}
+.skills-container {
+  display: flex;
+  height: 300px;
+  width: 2400px;
+  margin-left: 450px;
+}
+.skill {
+  padding: 75px;
+}
+.head-title {
+}
+.skill-title {
+}
+/* Section-C*/
+.gradinet {
+  background-image: url("images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+  height: 300px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+/*footer*/
+.footer {
+  display: flex;
+  gap: 100px;
+  background: black;
+  padding: 130px 200px;
+}
+.blac {
+  color: #ffffff;
+  padding-top: 20px;
+}
+.footer input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
